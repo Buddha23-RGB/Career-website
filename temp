@@ -1,0 +1,21 @@
+:\Users\joech\OneDrive\Documents\GitHub\Career-website> git init
+Reinitialized existing Git repository in C:/Users/joech/OneDrive/Documents/GitHub/Career-website/.git/
+PS C:\Users\joech\OneDrive\Documents\GitHub\Career-website> add app.py
+add : The term 'add' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a  
+path was included, verify that the path is correct and try again.
+At line:1 char:1
++ add app.py
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (add:String) [], CommandNot  
+   FoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\joech\OneDrive\Documents\GitHub\Career-website> git add app.py
+PS C:\Users\joech\OneDrive\Documents\GitHub\Career-website> git commit -m "Add app.py"
+git remote add origin https://github.com/NdagiStanley/new-repository.git
+git branch -M `main`
+git push -u origin `main`
+git add .
+git commit -m "Commit message"
+git push origin maingit add .
